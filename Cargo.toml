@@ -1,0 +1,11 @@
+[package]
+name = "deep-tls"
+version = "0.1.0"
+edition = "2021"
+description = "Recognizing transaction types in encrypted TLS traffic by record metadata"
+
+[dependencies]
+serde_json = "1"
+
+[profile.release]
+debug = false
